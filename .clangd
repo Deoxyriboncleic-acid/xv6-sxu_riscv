@@ -1,0 +1,7 @@
+If:
+  PathMatch: /home/username/xv6-riscv/*
+CompileFlags:
+  Add: 
+    - -I/home/wqy/OS_lab/xv6-riscv/kernel
+    - -I/home/wqy/OS_lab/xv6-riscv/user
+
