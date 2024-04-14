@@ -15,6 +15,7 @@ mkfs
 kernel/kernel
 .gdbinit
 .clangd
-.gitignore
 .gitignore.*
 .gdbinit.*
+.dir-locals.el
+.editorconfig
