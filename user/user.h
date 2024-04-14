@@ -24,8 +24,8 @@ int sleep(int);
 int uptime(void);
 
 int getcpuid(void);
-int read_sh_var(struct share_data *);
-void write_sh_var(struct share_data *,int x);
+//int read_sh_var(struct share_data *);
+//void write_sh_var(struct share_data *,int x);
 
 // ulib.c
 int stat(const char*, struct stat*);

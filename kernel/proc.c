@@ -691,20 +691,20 @@ getcpuid(void)
 
 
 
-int 
-read_sh_var(struct share_data *s)
-{
-  acquire(&s->lock);
-  int data = s->data;
-  release(&s->lock);
-  return data;
-}
-
-
-void 
-write_sh_var(struct share_data *s,int data)
-{
-  acquire(&s->lock);
-  s->data = data;
-  release(&s->lock);
-}
+//int 
+//read_sh_var(struct share_data *s)
+//{
+  //acquire(&s->lock);
+  //int data = s->data;
+  //release(&s->lock);
+  //return data;
+//}
+//
+//
+//void 
+//write_sh_var(struct share_data *s,int data)
+//{
+  //acquire(&s->lock);
+  //s->data = data;
+  //release(&s->lock);
+//}

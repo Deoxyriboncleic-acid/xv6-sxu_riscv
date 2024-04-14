@@ -108,8 +108,8 @@ int             either_copyin(void *dst, int user_src, uint64 src, uint64 len);
 void            procdump(void);
 
 int             getcpuid(void);
-int             read_sh_var(struct share_data);
-void            write_sh_var(struct share_data,int);
+//int             read_sh_var(struct share_data);
+//void            write_sh_var(struct share_data,int);
 
 // swtch.S
 void            swtch(struct context*, struct context*);

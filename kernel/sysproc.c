@@ -95,15 +95,15 @@ sys_getcpuid(void)
 {
   return getcpuid();
 }
-
-uint64 
-sys_read_sh_var(struct share_data *s)
-{
-  return read_sh_var(s);
-}
-
-uint64 
-sys_write_sh_var(struct share_data *s,int data)
-{
-  write_sh_var(s, data);
-}
+//
+//uint64 
+//sys_read_sh_var(struct share_data *s)
+//{
+  //return read_sh_var(s);
+//}
+//
+//uint64 
+//sys_write_sh_var(struct share_data *s,int data)
+//{
+  //write_sh_var(s, data);
+//}
